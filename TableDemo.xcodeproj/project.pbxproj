@@ -12,6 +12,7 @@
 		648ACBB323027DDC0042E416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648ACBB223027DDC0042E416 /* Assets.xcassets */; };
 		648ACBB623027DDC0042E416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648ACBB423027DDC0042E416 /* Main.storyboard */; };
 		648ACBB923027DDC0042E416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648ACBB823027DDC0042E416 /* main.m */; };
+		648ACBC2230281820042E416 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648ACBC1230281820042E416 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		648ACBB723027DDC0042E416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		648ACBB823027DDC0042E416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		648ACBBA23027DDC0042E416 /* TableDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableDemo.entitlements; sourceTree = "<group>"; };
+		648ACBC0230281820042E416 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		648ACBC1230281820042E416 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				648ACBB023027DDB0042E416 /* ViewController.m */,
 				648ACBB223027DDC0042E416 /* Assets.xcassets */,
 				648ACBB423027DDC0042E416 /* Main.storyboard */,
+				648ACBC0230281820042E416 /* TableViewController.h */,
+				648ACBC1230281820042E416 /* TableViewController.m */,
 				648ACBB723027DDC0042E416 /* Info.plist */,
 				648ACBB823027DDC0042E416 /* main.m */,
 				648ACBBA23027DDC0042E416 /* TableDemo.entitlements */,
@@ -142,6 +147,7 @@
 				648ACBB123027DDB0042E416 /* ViewController.m in Sources */,
 				648ACBB923027DDC0042E416 /* main.m in Sources */,
 				648ACBAE23027DDB0042E416 /* AppDelegate.m in Sources */,
+				648ACBC2230281820042E416 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
