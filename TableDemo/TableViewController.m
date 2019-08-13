@@ -24,11 +24,14 @@
     return _letters;
 }
 
-// NSTableViewDataSource
+// NSTableViewDataSource Protocol Method
 
 - (NSInteger)numberOfRowsInTableView:(NSTableView *)tableView {
     return self.numbers.count;
 }
+
+
+// NSTableViewDelegate Protocol Method
 
 -(NSView *)tableView:(NSTableView *)tableView viewForTableColumn:(NSTableColumn *)tableColumn row:(NSInteger)row {
     NSString *identifier = tableColumn.identifier;
